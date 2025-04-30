@@ -1,3 +1,4 @@
+import Con from "./components/Con"
 import Contact from "./components/Contact"
 import Experience from "./components/Experience"
 import Hero from "./components/Hero"
@@ -20,7 +21,8 @@ const App = () => {
       <Technologies/>
       <Projects/>
       <Experience/>
-      <Contact/>
+      {/* <Contact/> */}
+      <Con/>
     </div>
     </div>
   )

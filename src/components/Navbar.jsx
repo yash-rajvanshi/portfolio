@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa"
-import logo from "../assets/ilogo.png"
+import logo from "../assets/ydev.png"
 import { FaSquareXTwitter, FaX, FaXTwitter } from "react-icons/fa6"
 import header from "../assets/header.jpg"
 
@@ -15,7 +15,7 @@ const Navbar = () => {
     marginLeft: "-50vw", 
     marginRight: "-50vw"
   }}>
-    <img src={header} className="w-full h-full object-cover" alt="Background"/>
+    {/* <img src={header} className="w-full h-full object-cover" alt="Background"/> */}
   </div>
   
   {/* Existing content with z-index to appear above the background */}
