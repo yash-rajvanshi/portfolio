@@ -24,7 +24,7 @@ const childVariants = {
     }
 };
 
-import profilePic from "../assets/yash.jpg"
+import profilePic from "../assets/jon.jpeg"
 import { HERO_CONTENT } from "../constants"
 const Hero = () => {
     return (
@@ -67,7 +67,7 @@ const Hero = () => {
 
                         <motion.a
                             variants={childVariants}
-                            href="/yashResume.pdf"
+                            href="https://drive.google.com/file/d/1e6ODx0UBByRsFCLj1Z8Y5NneBGAtXhSe/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             download
