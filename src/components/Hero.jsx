@@ -24,7 +24,7 @@ const childVariants = {
     }
 };
 
-import profilePic from "../assets/jon.jpeg"
+import profilePic from "../assets/coder.png"
 import { HERO_CONTENT } from "../constants"
 const Hero = () => {
     return (
