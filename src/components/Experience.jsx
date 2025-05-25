@@ -45,7 +45,7 @@ const Experience = () => {
                         <motion.div whileInView={{ opacity: 1, y: 0 }}
                             initial={{ opacity: 0, y: -100 }}
                             transition={{ duration: 1 }} className="w-full lg:w-1/4">
-                            <p className="mb-2 text-sm text-stone-400">
+                            <p className="mb-2 italic text-lg text-stone-400">
                                 {experience.year}
                             </p>
                         </motion.div>
@@ -56,23 +56,25 @@ const Experience = () => {
                                 <span className="text-sm text-stone-500">{experience.company}</span>
                             </h3>
                             <p className="mb-4 text-stone-400">{experience.description}</p>
-                            {experience.technologies.map((tech, index) => {
-                                const bgColor = technologyColors[tech] || "#1c1917"; // Fallback to stone-900
-                                const textColor = lightBackgroundColors.includes(bgColor) ? "#000" : "#fff";
+                            <div className="flex flex-wrap gap-2 ">
+                                {experience.technologies.map((tech, index) => {
+                                    const bgColor = technologyColors[tech] || "#1c1917"; // Fallback to stone-900
+                                    const textColor = lightBackgroundColors.includes(bgColor) ? "#000" : "#fff";
 
-                                return (
-                                    <span
-                                        style={{
-                                            backgroundColor: bgColor,
-                                            color: textColor
-                                        }}
-                                        className="mr-2 mt-4 rounded px-2 py-1 text-sm font-medium"
-                                        key={index}
-                                    >
-                                        {tech}
-                                    </span>
-                                );
-                            })}
+                                    return (
+                                        <span
+                                            style={{
+                                                backgroundColor: bgColor,
+                                                color: textColor
+                                            }}
+                                            className="px-2 py-1 rounded-full text-sm font-medium"
+                                            key={index}
+                                        >
+                                            {tech}
+                                        </span>
+                                    );
+                                })}
+                            </div>
                         </motion.div>
                     </div>
                 ))}

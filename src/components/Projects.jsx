@@ -95,7 +95,7 @@ const Projects = () => {
                                                 backgroundColor: bgColor,
                                                 color: textColor
                                             }}
-                                            className="p-1 rounded text-sm font-medium"
+                                            className="px-2 py-1 rounded-full text-sm font-medium"
                                             key={index}
                                         >
                                             {tech}
