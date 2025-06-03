@@ -21,7 +21,9 @@ const technologyColors = {
     ".NET": "#512bd4",         // .NET purple
     "C#": "#178600",           // C# green
     "AdonisJs": "#5a45ff",     // AdonisJs indigo
-    "MySQL": "#4479a1"         // MySQL blue
+    "MySQL": "#4479a1",         // MySQL blue
+    "Render (Backend Deployment)": "#8a05ff",
+    "MongoDB": "#47A248"
 };
 
 const lightBackgroundColors = [

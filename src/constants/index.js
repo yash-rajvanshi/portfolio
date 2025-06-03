@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project11.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
-import project4 from "../assets/projects/project-4.webp";
+import project4 from "../assets/projects/project.jpeg";
 
 export const HERO_CONTENT = `A passionate Full Stack Web Developer with expertise in React.js, Next.js, and Tailwind CSS, dedicated to building responsive, scalable, and high-performance web applications. Currently pursuing my B.Tech in Computer Science (2026) at Uttaranchal University, I combine technical knowledge with a keen eye for clean code and intuitive UX. I’ve also contributed to frontend architecture during my internship at Ftechiz Solutions, collaborating with teams to deliver seamless digital experiences.`;
 
@@ -25,13 +25,33 @@ export const PROJECTS = [
     description:
       "Developed a responsive school website as a freelance project using Next.js, React.js, and Tailwind CSS to ensure high performance, modern UI, and fast-loading pages. Employed Git and GitHub for version control to enable smooth collaboration and effective teamwork. Deployed the site on Vercel, providing reliable hosting and continuous deployment for future updates.",
     technologies: ["Next.js",
-  "TailwindCSS", 
-  "JavaScript",
-  "React.js",
-  "Node.js",
-  "Git",
-  "GitHub",
-  "Vercel (for deployment)"],
+      "TailwindCSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Git",
+      "GitHub",
+      "MongoDB",
+      "Vercel (for deployment)"],
+  },
+  {
+    title: "Scholio (Dashboard)",
+    image: project4,
+    link: "https://scholio.vercel.app/",
+    description:
+      "The School Management Dashboard is a modern, intuitive, and highly responsive web application designed to streamline school administration, teaching, learning, and parent engagement. Built with cutting-edge technologies, it offers a seamless user experience with role-based access control for admins, teachers, students, and parents, ensuring secure and efficient management of academic activities.",
+    technologies: [
+      "Next.js",
+      "TailwindCSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Git",
+      "GitHub",
+      "MongoDB",
+      "Vercel (Frontend Deployment)",
+      "Render (Backend Deployment)"
+    ],
   },
   {
     title: "FoodCription Website (Freelanced)",
