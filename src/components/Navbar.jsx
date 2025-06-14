@@ -1,6 +1,7 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 import logo from "../assets/ydev.png"
 import { FaSquareXTwitter, FaX, FaXTwitter } from "react-icons/fa6"
+import { SiLeetcode } from "react-icons/si";
 import header from "../assets/header.jpg"
 
 const Navbar = () => {
@@ -29,7 +30,8 @@ const Navbar = () => {
       <a href="https://www.linkedin.com/in/yash-rajvanshi/" target="_blank" rel="noopener noreferrer" aria-label="LinnkedIn"><FaLinkedin/></a>
       <a href="https://github.com/yash-rajvanshi/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FaGithub/></a>
       <a href="https://www.instagram.com/yashraj1shi/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram/></a>
-      <a href="https://twitter.com/yashrajvanshi_?s=21&t=nTEE9CLSkiBUeizI3rD2FA" target="_blank" rel="noopener noreferrer" aria-label="X"><FaSquareXTwitter/></a> 
+      <a href="https://twitter.com/yashrajvanshi_?s=21&t=nTEE9CLSkiBUeizI3rD2FA" target="_blank" rel="noopener noreferrer" aria-label="X"><FaSquareXTwitter/></a>
+      <a href="https://leetcode.com/u/yash-rajvanshi/" target="_blank" rel="noopener noreferrer" aria-label="X"><SiLeetcode /></a>
     </div>
   </div>
 </nav>
