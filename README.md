@@ -1,4 +1,4 @@
-# 💼 Personal Portfolio – [Yash Rajvanshi]
+# 💼 Personal Portfolio – Yash Rajvanshi
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live-green)](https://devfolio-khaki.vercel.app/)
 
