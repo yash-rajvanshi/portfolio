@@ -22,7 +22,7 @@ Showcases projects, skills, experience, and contact details – built to impress
 
 ## 🌐 Live Preview
 
-👉 [https://your-portfolio-link.com](https://devfolio-khaki.vercel.app/)
+👉 [Link](https://devfolio-khaki.vercel.app/)
 
 ---
 
