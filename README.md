@@ -13,8 +13,8 @@ Showcases projects, skills, experience, and contact details – built to impress
 |-------------|------------------------|
 | Framework   | React                 |
 | Build Tool  | Vite                  |
-| Styling     | TailwindCSS / CSS     |
-| Animations  | Framer Motion (optional) |
+| Styling     | TailwindCSS|
+| Animations  | Framer Motion |
 | Icons       | React Icons / Lucide  |
 | Hosting     | Vercel |
 
