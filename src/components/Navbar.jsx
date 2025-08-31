@@ -52,14 +52,14 @@ const Navbar = () => {
       </div>
       
       {/* Existing content with z-index to appear above the background */}
-      <div className="relative z-10 flex items-center justify-between w-full">
-        <div className="flex flex-shrink-0 items-center">
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full">
+        <div className="flex flex-shrink-0 items-center mb-4 md:mb-0">
           <a href="/" aria-label="Home - Yash Rajvanshi Portfolio">
             <img src={logo} className="mx-2" width={100} height={33} alt="Yash Rajvanshi Logo"/>
           </a>
         </div>
         
-        <div className="m-8 backdrop-blur-md p-1 md:p-3 flex items-center justify-center gap-4 text-2xl" role="list">
+        <div className="m-4 md:m-8 backdrop-blur-md p-1 md:p-3 flex items-center justify-center gap-4 text-2xl" role="list">
           {socialLinks.map((link, index) => {
             const IconComponent = link.icon;
             return (
