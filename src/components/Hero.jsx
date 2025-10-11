@@ -65,16 +65,29 @@ const Hero = () => {
                             {HERO_CONTENT}
                         </motion.p>
 
-                        <motion.a
-                            variants={childVariants}
-                            href="https://drive.google.com/uc?export=download&id=1e6ODx0UBByRsFCLj1Z8Y5NneBGAtXhSe"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            download
-                            className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
-                        >
-                            Download Resume
-                        </motion.a>
+                        <motion.div variants={childVariants} className="flex mb-10">
+                            <motion.a
+                                href="https://drive.google.com/uc?export=download&id=1e6ODx0UBByRsFCLj1Z8Y5NneBGAtXhSe"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                download
+                                className="bg-[#f2be1a] text-stone-800 font-medium px-4 py-3 rounded-l-full text-sm flex items-center justify-center"
+                            >
+                                Download Resume
+                            </motion.a>
+                            <a
+                                href="https://drive.google.com/file/d/1e6ODx0UBByRsFCLj1Z8Y5NneBGAtXhSe/view?usp=sharing"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-green-400 text-white px-4 py-3 rounded-r-full text-sm font-medium flex items-center justify-center -ml-px"
+                            >
+                                <img
+                                    src="view.svg"
+                                    alt="View"
+                                    className="w-5 h-5"
+                                />
+                            </a>
+                        </motion.div>
                     </motion.div>
                 </div>
             </div>
